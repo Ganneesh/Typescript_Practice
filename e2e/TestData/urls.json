@@ -1,0 +1,6 @@
+
+{
+    "prod": "https://www.prod-example.com",
+    "qa": "https://www.google.com/",
+    "preprod": "https://www.preprod-example.com"
+  }
