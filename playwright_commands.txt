@@ -1,0 +1,8 @@
+1.execute the all the test cases in commandline mode:- 
+npx playwright test  
+2.execute the all the test cases in UI mode
+npx playwright test --ui
+3.execute the specific test file
+npx playwright test 'path of the file'
+4.To generate report
+npx playwright show-report

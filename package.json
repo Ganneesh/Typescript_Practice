@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:headed":"npx playwright test --ui 'e2e/Practice_UI_Automation/verifypageurl.spec.ts'",
+    "test:headless":"npx playwright test \"e2e/Practice_UI_Automation/verifypageurl.spec.ts\" && npx playwright show-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
