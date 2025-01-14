@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:headed":"npx playwright test --ui 'e2e/Practice_UI_Automation/verifypageurl.spec.ts'",
-    "test:headless":"npx playwright test \"e2e/Practice_UI_Automation/verifypageurl.spec.ts\" && npx playwright show-report"
+    "test:headed": "npx playwright test --ui 'e2e/Practice_UI_Automation/verifypageurl.spec.ts'",
+    "test:headless": "npx playwright test \"e2e/Practice_UI_Automation/verifypageurl.spec.ts\" && npx playwright show-report"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,8 @@
   "devDependencies": {
     "@playwright/test": "^1.49.1",
     "@types/node": "^22.10.5"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.3.0"
   }
 }
