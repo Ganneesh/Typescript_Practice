@@ -17,10 +17,9 @@ test('Test Case 1-Verify the Radio Button Example should be visible ',async({pag
 
 test('Test Case 2',async({page})=>{
 
-    expect(await page.locator('input[value="radio1"]').getAttribute('value')).toBe('radio1')
+expect(await page.locator('input[value="radio1"]').getAttribute('value')).toBe('radio1')
 expect(await page.locator('input[value="radio2"]').getAttribute('value')).toBe('radio2')
-
-    expect(await page.locator('input[value="radio3"]').getAttribute('value')).toBe('radio3')
+expect(await page.locator('input[value="radio3"]').getAttribute('value')).toBe('radio3')
 })
 
 test('Test Case 3',async({page})=>{

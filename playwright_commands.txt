@@ -6,3 +6,7 @@ npx playwright test --ui
 npx playwright test 'path of the file'
 4.To generate report
 npx playwright show-report
+
+http://www.automationpractice.pl/index.php
+https://rahulshettyacademy.com/AutomationPractice/
+https://www.automationexercise.com/
